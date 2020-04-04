@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Angular-BeTheHero"
+    }
+  },
+  "defaultProject": "Angular-BeTheHero",
+  "cli": {
+    "analytics": false
+  }
 }

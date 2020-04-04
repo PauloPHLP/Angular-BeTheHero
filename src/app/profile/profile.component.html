@@ -1,0 +1,57 @@
+<div class="profile-container">
+  <header>
+    <img src={{logoPath}} alt="Be The Hero"/>
+    <span>Seja bem-vindo(a), Organização</span>
+    <a routerLink="/incidents/new" routerLinkActive="active" class="button">Cadastrar novo caso</a>
+    <button type="button" routerLink="/">
+      <fa-icon [icon]="faPowerOff" [styles]="{'stroke': '#E02041', 'color': '#E02041', 'cursor': 'pointer', 'size': '16px'}"></fa-icon>
+    </button>
+  </header>
+  <h1>Casos cadastrados</h1>
+  <ul>
+    <li>
+      <strong>Caso:</strong>
+      <p>Caso 1</p>
+      <strong>Descrição:</strong>
+      <p>Descrição do caso 1</p>
+      <strong>Valor:</strong>
+      <p>R$120,00</p>
+      <button type="button">
+        <fa-icon [icon]="faTrash" [styles]="{'stroke': '#A8A8B3', 'color': '#A8A8B3', 'cursor': 'pointer', 'size': '16px'}">></fa-icon>
+      </button>
+    </li>
+    <li>
+      <strong>Caso:</strong>
+      <p>Caso 2</p>
+      <strong>Descrição:</strong>
+      <p>Descrição do caso 2</p>
+      <strong>Valor:</strong>
+      <p>R$120,00</p>
+      <button type="button">
+        <fa-icon [icon]="faTrash" [styles]="{'stroke': '#A8A8B3', 'color': '#A8A8B3', 'cursor': 'pointer', 'size': '16px'}">></fa-icon>
+      </button>
+    </li>
+    <li>
+      <strong>Caso:</strong>
+      <p>Caso 3</p>
+      <strong>Descrição:</strong>
+      <p>Descrição do caso 3</p>
+      <strong>Valor:</strong>
+      <p>R$120,00</p>
+      <button type="button">
+        <fa-icon [icon]="faTrash" [styles]="{'stroke': '#A8A8B3', 'color': '#A8A8B3', 'cursor': 'pointer', 'size': '16px'}">></fa-icon>
+      </button>
+    </li>
+    <li>
+      <strong>Caso:</strong>
+      <p>Caso 4</p>
+      <strong>Descrição:</strong>
+      <p>Descrição do caso 4</p>
+      <strong>Valor:</strong>
+      <p>R$120,00</p>
+      <button type="button">
+        <fa-icon [icon]="faTrash" [styles]="{'stroke': '#A8A8B3', 'color': '#A8A8B3', 'cursor': 'pointer', 'size': '16px'}">></fa-icon>
+      </button>
+    </li>
+  </ul>
+</div>

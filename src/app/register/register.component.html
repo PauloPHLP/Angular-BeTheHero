@@ -1,0 +1,54 @@
+<div class="register-container">
+  <div class="content">
+    <section>
+      <img src={{logoPath}} alt="Be The Hero">
+      <h1>Cadastro</h1>
+      <p>Faça seu cadastro! Entre na plataforma e ajuda pessoas a encontrarem os casos da sua ONG.</p>
+      <a routerLink="/" routerLinkActive="active" class="back-link">
+        <fa-icon [icon]="faArrowLeft" [styles]="{'stroke': '#E02041', 'color': '#E02041', 'cursor': 'pointer', 'size': '16px'}">></fa-icon>
+        Voltar para o logon
+      </a>
+    </section>
+    <form (ngSubmit)="onSubmit(form)" #form="ngForm">
+      <input
+        placeholder="Nome da ONG"
+        type="text"
+        id="name"
+        name="name"
+        ngModel
+      >
+      <input
+        placeholder="E-mail"
+        type="text"
+        id="email"
+        name="email"
+        ngModel
+      >
+      <input
+        placeholder="Whatsapp"
+        type="text"
+        id="whatsapp"
+        name="whatsapp"
+        ngModel
+      >
+      <div class="input-group">
+        <input
+          placeholder="Cidade"
+          type="text"
+          id="city"
+          name="city"
+          ngModel
+        >
+        <input
+          placeholder="UF"
+          style="width: 20%"
+          type="text"
+          id="fu"
+          name="fu"
+          ngModel
+        >
+      </div>
+      <button class="button" type="submit">Cadastrar</button>
+    </form>
+  </div>
+</div>

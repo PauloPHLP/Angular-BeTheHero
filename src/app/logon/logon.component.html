@@ -1,0 +1,15 @@
+<div class="logon-container">
+  <section class="form">
+    <img src={{logoPath}} alt="Be The Hero."/>
+    <form>
+      <h1>Faça seu logon</h1>
+      <input placeholder="Seu ID">
+      <button type="submit" class="button" routerLink="/incidents">Entrar</button>
+      <a routerLink="/register" routerLinkActive="active" class="back-link">
+        <fa-icon [icon]="faSignInAlt" [styles]="{'stroke': '#E02041', 'color': '#E02041', 'cursor': 'pointer', 'size': '16px'}">></fa-icon>
+        Não tenho cadastro
+      </a>
+    </form>
+  </section>
+  <img src={{heroes}} alt="Heroes.">
+</div>
